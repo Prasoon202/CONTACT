@@ -1,38 +1,65 @@
-.App {
+button {
+  padding: 10px;
+  border: 0px;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  background-color: #645f03;
+  cursor: pointer;
+  margin: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 15px;
+}
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.content,
+.contactadder {
+  background-color: #ccc;
+  padding: 10px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.contact {
+  background: #fff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+}
+input {
+  background-color: #fff;
+  border: 0px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+
+  font-family: "Patrick Hand", serif;
+}
+.navbar {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #6f00ff;
   text-align: center;
+  padding: 10px;
+  position: sticky;
+  top: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0px;
 }
+.footer {
+  background: black;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+  padding: 10px;
+  font-size: 18px;
+  position: relative;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  text-align: center;
+  margin-top: 150px;
 }
